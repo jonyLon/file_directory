@@ -13,7 +13,7 @@ namespace file_directory
             {"md", "create folder (provide name)"},
             {"rd", "remove folder (provide name)"},
             {"cd", "change current directory"},
-            {"dir", "print content of current folder (provide name)"},
+            {"dir", "print content of current folder"},
             {"create", "create text file (provide name and content)"},
             {"type", "print content of file (provide name)"},
             {"copy", "copy file (provide current name and name for copy)" },
@@ -134,14 +134,7 @@ namespace file_directory
             }
      
         }
-
-
     }
-
-
-
-
-
     internal class Program
     {
         static void Main(string[] args)
